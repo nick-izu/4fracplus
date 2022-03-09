@@ -103,8 +103,8 @@ END
 #=========================== regions ==========================================
 REGION All
   COORDINATES
-    -1.d20 -1.d20 -1.d20
-    1.d20 1.d20 1.d20
+    -5.d2 -5.d2 -5.d2
+     5.d2  5.d2  5.d2
   /
 END 
 
@@ -142,7 +142,7 @@ FLOW_CONDITION inflow
   TYPE
     PRESSURE dirichlet
   /
-  PRESSURE 1.1d6
+  PRESSURE 2.d6
 END
 
 
