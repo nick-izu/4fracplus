@@ -25,4 +25,5 @@ DFN.mesh_network(uniform_mesh=True)
 
 
 DFN.dfn_flow()
+DFN.dfn_trans()
 
