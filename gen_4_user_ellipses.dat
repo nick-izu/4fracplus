@@ -179,6 +179,8 @@ eLayer: {0,0,0}
      Layer 0 is the entire domain.
      Layers numbered > 0 coorespond to layers defined above
      1 corresponts to the first layer listed, 2 is the next layer listed, etc */
+     
+eRegion: {0,0,0}
 
 //edist is a mandatory parameter if using statistically generated ellipses 
 edistr: {2,2,2}   /* Ellipse statistical distribution options:
