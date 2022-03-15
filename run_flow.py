@@ -24,9 +24,11 @@ DFN.create_network()
 DFN.mesh_network(visual_mode=False)
 
 ##dfnFlow
-DFN.pflotran()
-DFN.parse.pflotran_vtk_python()
-DFN.pflotran_cleanup()
+#DFN.pflotran()
+#DFN.parse.pflotran_vtk_python()
+#DFN.pflotran_cleanup()
+
+DFN.dfn_flow()
 
 ##dfnTrans
 DFN.copy_dfn_trans_files()
