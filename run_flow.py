@@ -31,7 +31,9 @@ DFN.mesh_network(visual_mode=False)
 DFN.dfn_flow()
 
 ##dfnTrans
-DFN.copy_dfn_trans_files()
-DFN.check_dfn_trans_run_files()
-DFN.run_dfn_trans()
+#DFN.copy_dfn_trans_files()
+#DFN.check_dfn_trans_run_files()
+#DFN.run_dfn_trans()
+
+DFN.dfn_trans()
 
