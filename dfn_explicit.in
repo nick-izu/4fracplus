@@ -94,7 +94,7 @@ END
 #=========================== times ============================================
 TIME
   INITIAL_TIMESTEP_SIZE  1.d-6 y
-  FINAL_TIME 10000.d0 y
+  FINAL_TIME 1000000.d0 y
   STEADY_STATE
 END
 
