@@ -1,5 +1,5 @@
 //==============================================================================
-//Gereral Options & Fracture Network Parameters: 
+//Gereral Options & Fracture Network Parameters:  
 
 stopCondition: 1
     /* 0: stop once nPoly fractures are accepted (Defined below)
