@@ -472,7 +472,7 @@ Also, coordinates must be co-planar */
 
 //NOTE: Only one aperture type may be used at a time 
 
-aperture: 2  //choise of aperture option described above
+aperture: 4  //choise of aperture option described above
 
 //(**** 1)meanAperture and stdAperture for using LogNormal distribution.********)
 meanAperture:  -3 /*Mean value for aperture using  
@@ -496,7 +496,7 @@ constantAperture: 1e-3  //Sets constant aperture for all fractures
 /*(******** 4)lengthCorrelatedAperture, aperture is defined as a function of 
        fracture size *******************/
        
-lengthCorrelatedAperture: {5e-5, 0.5}
+lengthCorrelatedAperture: {3.162e-5, 0.5}
     /*Length Correlated Aperture Option:
       Aperture is calculated by: b=F*R^k,
       where F is a first element in lengthCorrelatedAperture, 
