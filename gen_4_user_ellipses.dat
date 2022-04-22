@@ -44,18 +44,19 @@ layers:
     shape familiy section) 
 */   
 
-numOfRegions: 1
+/* numOfRegions: 1
 
 regions:
 {-500, 500, -500, 500, -500, 500}
 
-orientationOption: 0
+orientationOption: 0 */
 
 h: 3
   /* Minimum fracture length scale(meters)
     Any fracture with a feature, such as and intersection, of less than h will be rejected. */
 
 
+outputTriplePoints:0
 outputAcceptedRadiiPerFamily:1
 disableFram:0
 outputFinalRadiiPerFamily:1
@@ -71,6 +72,7 @@ tripleIntersections: 0
 /* Options:     0: Off
                 1: On    */
 
+multipleClusters: 0
 
 
 printRejectReasons: 1
@@ -481,7 +483,7 @@ stdAperture: 0.8  //Standard deviation
 
 /*(****** 2)apertureFromTransmissivity, first transmissivity is defined, 
   and then, using a cubic law, the aperture is calculated;***************/
-apertureFromTransmissivity: {7.0e-11, 0.7}
+apertureFromTransmissivity: {2.2e-9, 0.8}
     /* Transmissivity is calculated as transmissivity = F*R^k,
        where F is a first element in aperturefromTransmissivity,
        k is a second element and R is a mean radius of a polygon. 
