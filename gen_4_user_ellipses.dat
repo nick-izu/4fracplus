@@ -72,7 +72,7 @@ tripleIntersections: 0
 /* Options:     0: Off
                 1: On    */
 
-multipleClusters: 0
+/* multipleClusters: 0 */
 
 
 printRejectReasons: 1
