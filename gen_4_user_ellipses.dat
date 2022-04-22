@@ -56,7 +56,7 @@ h: 3
     Any fracture with a feature, such as and intersection, of less than h will be rejected. */
 
 
-outputTriplePoints:0
+outputTriplePoints:1
 outputAcceptedRadiiPerFamily:1
 disableFram:0
 outputFinalRadiiPerFamily:1
