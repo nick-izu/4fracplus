@@ -44,12 +44,12 @@ layers:
     shape familiy section) 
 */   
 
-/* numOfRegions: 1
+numOfRegions: 1
 
 regions:
 {-500, 500, -500, 500, -500, 500}
 
-orientationOption: 0 */
+orientationOption: 0
 
 h: 3
   /* Minimum fracture length scale(meters)
