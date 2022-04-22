@@ -496,7 +496,7 @@ constantAperture: 1e-3  //Sets constant aperture for all fractures
 /*(******** 4)lengthCorrelatedAperture, aperture is defined as a function of 
        fracture size *******************/
        
-lengthCorrelatedAperture: {3.162e-5, 0.5}
+lengthCorrelatedAperture: {5e-5, 0.5}
     /*Length Correlated Aperture Option:
       Aperture is calculated by: b=F*R^k,
       where F is a first element in lengthCorrelatedAperture, 
