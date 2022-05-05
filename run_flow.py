@@ -33,7 +33,7 @@ b[3]= 5e-4
 variable = "transmissivity"
 function = "correlated"
 params = {"alpha":2.2*10**-9, "beta":0.8}
-b4,perm2,T4 = DFN.generate_hydraulic_values(variable,function,params,family_id=None)
+b4,perm4,T4 = DFN.generate_hydraulic_values(variable,function,params,family_id=None)
 
 T = T0 + T1 + T2 + T3 + T4
 
