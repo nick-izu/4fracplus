@@ -78,7 +78,7 @@ DFN.dump_hydraulic_values(b,perm,T)
 DFN.add_variable_to_mesh("trans,", "transmissivity.dat", "full_mesh.inp")
 
 ## JDH I added an exit here for you to look at the files before you run the simulation.
-exit()
+#exit()
 
 #dfnFlow
 DFN.dfn_flow()
