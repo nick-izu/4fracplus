@@ -493,7 +493,7 @@ apertureFromTransmissivity: {2.2e-9, 0.8}
 /*(****** 3)constantAperture, all fractures, regardless of their size, 
    will have the same aperture value;    **********************************/
       
-constantAperture: 5e-3  //Sets constant aperture for all fractures 
+constantAperture: 1e-3  //Sets constant aperture for all fractures 
 
 /*(******** 4)lengthCorrelatedAperture, aperture is defined as a function of 
        fracture size *******************/
