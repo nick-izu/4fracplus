@@ -34,7 +34,7 @@ END
 
 #=========================== fluid properties =================================
 FLUID_PROPERTY
-  DIFFUSION_COEFFICIENT 1.d-9
+  DIFFUSION_COEFFICIENT 1.6d-9
 END
 
 DATASET Permeability
@@ -61,7 +61,7 @@ CHARACTERISTIC_CURVES default
     M 0.5d0
     ALPHA  1.d-4
     LIQUID_RESIDUAL_SATURATION 0.1d0
-    MAX_CAPILLARY_PRESSURE 1.d8
+    MAX_CAPILLARY_PRESSURE 1.d4
   /
   PERMEABILITY_FUNCTION MUALEM_VG_LIQ
     M 0.5d0
@@ -103,8 +103,8 @@ END
 #=========================== regions ==========================================
 REGION All
   COORDINATES
-    -1.d20 -1.d20 -1.d20
-     1.d20  1.d20  1.d20
+    -1.d5 -1.d5 -1.d5
+     1.d5  1.d5  1.d5
   /
 END 
 
