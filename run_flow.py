@@ -31,6 +31,9 @@ DFN.mesh_network(visual_mode=False)
 
 ## JDH This portion looks good. 
 # First we define values for the stochastic families
+porosity = 1.0
+tortuosity= 1.0
+
 variable = "transmissivity"
 function = "correlated"
 params = {"alpha":2.2*10**-9, "beta":0.8}
