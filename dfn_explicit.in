@@ -48,7 +48,7 @@ MATERIAL_PROPERTY soil1
   ID 1
   POROSITY 0.005d0
   TORTUOSITY 0.2d0
-  CHARACTERISTIC_CURVES cc1
+  CHARACTERISTIC_CURVES default
   PERMEABILITY
     DATASET Permeability
   /
@@ -56,7 +56,7 @@ END
 
 
 #=========================== characteristic curves ============================
-CHARACTERISTIC_CURVES cc1
+CHARACTERISTIC_CURVES default
   SATURATION_FUNCTION VAN_GENUCHTEN
     M 0.5d0
     ALPHA  1.d-4
