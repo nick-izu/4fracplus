@@ -19,11 +19,11 @@ SUBSURFACE
 DFN
 
 #=========================== numerical methods ================================
-NUMERICAL_METHODS FLOW
-  TIMESTEPPER
-    PRESSURE_CHANGE_GOVERNOR 1.d2
-  /
-END
+#NUMERICAL_METHODS FLOW
+  #TIMESTEPPER
+    #PRESSURE_CHANGE_GOVERNOR 1.d2
+  #/
+#END
 
 #=========================== discretization ===================================
 GRID
@@ -93,8 +93,8 @@ END
 
 #=========================== times ============================================
 TIME
-  INITIAL_TIMESTEP_SIZE  1.d-6 y
-  FINAL_TIME 1000000.d0 y
+  INITIAL_TIMESTEP_SIZE  1.d-8 y
+  FINAL_TIME 100000.d0 y
   STEADY_STATE
 END
 
