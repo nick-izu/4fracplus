@@ -18,12 +18,12 @@ SUBSURFACE
 
 DFN
 
-#=========================== numerical methods ================================
-#NUMERICAL_METHODS FLOW
-  #TIMESTEPPER
-    #PRESSURE_CHANGE_GOVERNOR 1.d2
-  #/
-#END
+=========================== numerical methods ================================
+NUMERICAL_METHODS FLOW
+  TIMESTEPPER
+    PRESSURE_CHANGE_GOVERNOR 1.d2
+  /
+END
 
 #=========================== discretization ===================================
 GRID
