@@ -40,8 +40,6 @@ DATASET Permeability
   FILENAME dfn_properties.h5
 END
 
-
-
 #=========================== material properties ==============================
 MATERIAL_PROPERTY soil1
   ID 1
@@ -80,14 +78,12 @@ OUTPUT
     LIQUID_PRESSURE
   /
   MASS_BALANCE_FILE
-    PERIODIC TIMESTEP 1
+    PERIODIC TIMESTEP 10
     TOTAL_MASS_REGIONS
       all
-      inflow
       outflow
     /
   /
-  MASS_FLOWRATE
 END
 
 #=========================== times ============================================
