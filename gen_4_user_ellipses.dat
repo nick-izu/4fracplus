@@ -89,7 +89,7 @@ visualizationMode: 0
    1: produce only first round of triangulations. In this case no 
    modeling of flow and transport is possible. */ 
 
-seed: 200
+seed: 500
     //Seed for random generator. 
         
 
