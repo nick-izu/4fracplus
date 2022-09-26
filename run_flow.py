@@ -8,28 +8,6 @@ DFN.check_input()
 DFN.create_network()
 DFN.mesh_network(visual_mode=False)
 
-# JDH, this part is incorrect. Every one of these will provide values for all 
-## deterministic fractures, not just one at a time. 
-
-# variable = "aperture"
-# function = "constant"
-# params = {"mu":1*10**-3}
-# b1,perm1,T1 = DFN.generate_hydraulic_values(variable,function,params,family_id=0)
-
-# function = "constant"
-# params = {"mu":1*10**-3}
-# b2,perm2,T2 = DFN.generate_hydraulic_values(variable,function,params,family_id=0)
-
-# function = "constant"
-# params = {"mu":1*10**-3}
-# b3,perm3,T3 = DFN.generate_hydraulic_values(variable,function,params,family_id=0)
-
-# function = "constant"
-# params = {"mu":5*10**-4}
-# b4,perm4,T4 = DFN.generate_hydraulic_values(variable,function,params,family_id=0)
-
-
-## JDH This portion looks good. 
 # First we define values for the stochastic families
 porosity = 1.0
 tortuosity= 1.0
