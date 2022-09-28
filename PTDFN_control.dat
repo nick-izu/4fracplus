@@ -89,7 +89,7 @@ init_npart: 100
 init_oneregion: yes   
 in_partn: 2000
 in_xmin: -500
-in_xmax: -498 
+in_xmax: -500 
 in_ymin: -500
 in_ymax:  500
 in_zmin: -500 
