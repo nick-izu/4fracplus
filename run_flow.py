@@ -46,7 +46,7 @@ perm[3] = b[3]**2/12
 # determine values of Transmissivity for determinsitc fractures
 mu = 1e-3  #dynamic viscosity of water at 20 degrees C, Pa*s
 g = 9.8  #gravity acceleration
-rho = 997  # water density
+rho = 1000  # water density
 
 T[0] = (b[0]**3 * rho * g) / (12 * mu)
 T[1] = (b[1]**3 * rho * g) / (12 * mu)
