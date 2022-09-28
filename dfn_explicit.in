@@ -77,13 +77,6 @@ OUTPUT
     POROSITY
     LIQUID_PRESSURE
   /
-  MASS_BALANCE_FILE
-    PERIODIC TIMESTEP 10
-    TOTAL_MASS_REGIONS
-      all
-      outflow
-    /
-  /
 END
 
 #=========================== times ============================================
