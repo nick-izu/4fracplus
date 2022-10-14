@@ -9,8 +9,6 @@ DFN.create_network()
 DFN.mesh_network(visual_mode=False)
 
 # First we define values for the stochastic families
-porosity = 1.0
-tortuosity= 1.0
 
 variable = "transmissivity"
 function = "correlated"
